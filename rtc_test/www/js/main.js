@@ -1,8 +1,8 @@
 var socket;
 var config;
 var session;
-var signaling_address = "http://sssserver.ddns.net:443"//"http://192.168.1.121:3000"
-var turn_address = 'turn:numb.viagenie.ca'
+var signaling_address = "http://xxxxxxxxxxxxx:443"//"http://192.168.1.121:3000"
+var turn_address = 'turn:xxxxxxxxxxxx'
 
 var signaling = {};
 signaling.login = function(user){
@@ -17,8 +17,8 @@ signaling.login = function(user){
 			},
 			turn: {
 				host: turn_address,
-				username: 'spam4me2@outlook.it',
-				password: 'thisisnew'				
+				username: 'xxxxxxxxxxxxx',
+				password: 'xxxxxxxxx'				
 			},
 			streams: {
 				audio: true,
@@ -55,8 +55,8 @@ signaling.call = function(user){
 		},
 		turn: {
 			host: turn_address,
-			username: 'spam4me2@outlook.it',
-			password: 'thisisnew'
+			username: 'xxxxxxxxxxxxxxx',
+			password: 'xxxxxxxxxxx'
 		},
 		streams: {
 			audio: true,
